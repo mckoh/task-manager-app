@@ -10,5 +10,3 @@ betreff = st.text_input("Task Betreff")
 st.slider("Task Priority", 0, 100, 50)
 st.checkbox("Task Completed")
 st.button("Submit")
-
-print(betreff)
