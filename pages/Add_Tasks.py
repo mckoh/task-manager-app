@@ -6,6 +6,20 @@ if 'tasks' not in st.session_state:
 
 st.title("Neue Aufgabe hinzufügen")
 
+st.markdown(
+    """
+    <style>
+    textarea {
+        font-size: 3rem !important;
+    }
+    input {
+        font-size: 3rem !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 task_name = st.text_input("Aufgabenname", key="task_name")
 task_priority = st.slider("Priorität", 1, 10, 5, key="task_prio")
 task_due = st.date_input("Fälligkeitsdatum", key="task_due")
