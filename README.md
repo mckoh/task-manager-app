@@ -12,10 +12,26 @@ Unsere Task-Management-App ermöglicht es Benutzer:innen, ihre täglichen Aufgab
 * Speicherung von Aufgaben, damit sie auch nach Neustart der Anwendung verfügbar sind.
 * Exportfunktion, um Aufgaben außerhalb der App weiterzuverwenden.
 
-2️⃣ Team-Mitglieder (Kollaborative Nutzung)Diese Nutzer:innen arbeiten gemeinsam an Aufgaben, z. B. in Studiengruppen oder Teams.Kernanforderungen:
+## 2️⃣ Team-Mitglieder (Kollaborative Nutzung)Diese Nutzer:innen arbeiten gemeinsam an Aufgaben, z. B. in Studiengruppen oder Teams.Kernanforderungen:
 
 * Möglichkeit, Aufgaben mit anderen zu teilen.
 * Kommentarfunktion für zusätzliche Informationen zu Aufgaben.
 * Klare Statusanzeigen für erledigte und offene Aufgaben.
 * Nachverfolgbarkeit von Änderungen an Aufgaben.
 * Synchronisierung oder einfache Datenverwaltung für gemeinsame Nutzung.
+
+## 👾 Dependencies installieren
+
+Dieses Repo enthält ein [`requirements.txt`](requirements.txt). Um alle notwendigen Anforderungen zu installieren, kann folgende Befehlssequenz im Terminal ausgeführt werden:
+
+```bash
+pip install -r requirements.txt
+```
+
+## ⚙ Nutzen der App
+
+Die App kann via Streamlit gestartet werden. Dazu kann folgende Befehlssequenz im Terminal gestartet werden:
+
+```bash
+streamlit run Home.py
+```
